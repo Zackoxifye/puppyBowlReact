@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 800%;
+  font-family: fantasy;
+  color: white;
+  text-decoration: underline;
+  text-shadow: 13px 8px 8px black;
+}
+
+body {
+  background-color: midnightblue;
+}
+
+.playerCard {
+  margin-left: 3%;
+  margin-top: 5%;
+  width: 20%;
+  background-color: white;
+  border: solid black 3px;
+  border-radius: 4%;
+  font-size: 150%;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.playerCard img {
+  max-width: 100%;
+}
+
+.playerModal {
+  position: fixed;
+  margin-left: 40%;
+  margin-top: 5%;
+  opacity: 1;
+  width: 180%;
+  height: 100vh;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+#new-player-form {
+  text-align: center;
+  margin-top: 3%;
+  color: white;
+  font-size: 130%;
+  font-family: fantasy;
+  text-shadow: 13px 8px 8px black;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header a {
+  color: white;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+#all-players-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.playerCard {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  width: 350px;
+  margin-left: 22%;
+}
+
+.playerCard img {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar {
+  font-size: 200%;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#puppyDetails {
+  text-align: center;
+  width: 350px;
+  margin-left: 35%;
+}
+
+#addPlayerForm {
+  font-size: 200%;
+  color: white;
+  margin-left: 25%;
+  margin-top: 10%;
+}
